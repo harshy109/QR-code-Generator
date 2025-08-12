@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=League+Spartan:wght@100..900&family=Lexend:wght@100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Redressed&display=swap');
 *{
     margin: 0;
-    padding: 0px;
+    padding: 0;
     font-family:'League Spartan';
     box-sizing: border-box;
 }
 body{
-    background-color: #03023a;
+    background-color: #333;
 }
 .container{
     /* min-height: 200px; */
@@ -44,7 +44,9 @@ input{
     background-color: #6b9aff;
     color: #fff;
     border: none;
-
+}
+#generateBtn:hover{
+    background-color: #284a94;
 }
 #imgBox{
     width: 200px;
@@ -61,4 +63,5 @@ input{
     padding: 8px;
     border-radius: 3px;
     margin-bottom: 20px;
+    margin-top: 15px;
 }
